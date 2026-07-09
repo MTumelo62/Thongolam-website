@@ -94,15 +94,56 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: var(--primary);
     padding-left: 40px;
 }
+ /* Header */
+.logo img {
+    height: 70px;
+    width: auto;
+    display: block;
 
-.logo i {
-    color: var(--secondary);
+}
+/* Footer */
+.footer-logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:20px;
+}
+
+.footer-logo img{
+    width:55px;
+    height:auto;
+    flex-shrink: 0;
+    
+}
+
+.footer-logo h3{
+    margin-top: -8px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+.footer-about p{
+    color:#d8d8d8;
+    line-height:1.8;
+    margin:0;   
+    max-width:300px;
+}
+
+.footer-content{
+    display:grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    column-gap:70px;
+    align-items:start;
+}
+
+
+.quick-links{
+    margin-left: 60px;
 }
 
 nav ul {
